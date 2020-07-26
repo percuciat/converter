@@ -1,0 +1,64 @@
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+
+/* Exchange */
+
+.container{
+    max-width: 1080px;
+    margin: 50px auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.field{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    background: antiquewhite;
+}
+.input{
+    padding: 5px 10px;
+    background: #e0e0e0;
+    border: 1px solid grey;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.select{
+    margin-bottom: 10px;
+}
+.select-item{
+    padding: 5px 10px;
+}
+
+.input--from::placeholder,
+.input--from{
+    color: green;
+}
+
+.input--to::placeholder,
+.input--to{
+    color: black;
+}
+
+.result{
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+/* Exchange */

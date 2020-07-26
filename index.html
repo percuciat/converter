@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <title>Objects</title>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="title">Currency exchange rate</h1>
+    <div class="field">
+        <div class="field-item">
+            <div class="select">
+                <label for="first">From:</label>
+                <select class="select-item" id="first">
+                    <option value="aud">Australian dollar</option>
+                    <option value="eur">Euro</option>
+                    <option value="gbp">Pound</option>
+                    <option value="usd">US dollar</option>
+                </select>
+            </div>
+            <label><input id="firstInput" class="input input--from" type="number" maxlength="10000" placeholder="value"></label>
+            <p> <span id="staticNumber"></span>
+                <span id="currencyFirst"></span>
+                =
+                <span id="currencyVal"></span>
+                <span id="currencySecond"></span>
+            </p>
+        </div>
+        <div class="field-item">
+            <div class="select">
+                <label for="second">To:</label>
+                <select class="select-item" id="second">
+                    <option value="aud">Australian dollar</option>
+                    <option selected value="eur">Euro</option>
+                    <option value="gbp">Pound</option>
+                    <option value="usd">US dollar</option>
+                </select>
+            </div>
+            <p class="result">value result</p>
+        </div>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
